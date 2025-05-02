@@ -9,7 +9,7 @@ const Header = () => {
       <div 
         className="absolute inset-0 bg-black/35 z-0" 
         style={{
-          backgroundImage: `url(https://cdn.poehali.dev/files/8d99a946-b9a6-49a3-afcb-66a1f9e261a9.jpg)`,
+          backgroundImage: `url(https://cdn.poehali.dev/files/79d790dd-b336-477b-8bf9-b6995f00145e.jpg)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
@@ -32,8 +32,8 @@ const Header = () => {
         
         {/* Центральная часть с призывом к действию */}
         <div className="flex-1 flex flex-col justify-center items-center text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Кузовной ремонт в Тольятти
+          <h1 className="text-3xl md:text-5xl font-bold text-white mb-6">
+            Кузовной ремонт<br />в Тольятти
           </h1>
           <a href="tel:+79966215396">
             <Button size="lg" className="text-lg px-8">
