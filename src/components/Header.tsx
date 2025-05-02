@@ -7,7 +7,7 @@ const Header = () => {
     <header className="relative w-full h-[60vh] md:h-[70vh] bg-black">
       {/* Фоновое изображение с затемнением */}
       <div 
-        className="absolute inset-0 bg-black/60 z-0" 
+        className="absolute inset-0 bg-black/35 z-0" 
         style={{
           backgroundImage: `url(https://cdn.poehali.dev/files/8d99a946-b9a6-49a3-afcb-66a1f9e261a9.jpg)`,
           backgroundSize: 'cover',
@@ -33,12 +33,8 @@ const Header = () => {
         {/* Центральная часть с призывом к действию */}
         <div className="flex-1 flex flex-col justify-center items-center text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Профессиональный кузовной<br /> ремонт в Тольятти
+            Кузовной ремонт в Тольятти
           </h1>
-          <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl">
-            Восстановление автомобилей любой сложности<br />
-            Гарантия качества • Современное оборудование
-          </p>
           <a href="tel:+79966215396">
             <Button size="lg" className="text-lg px-8">
               Позвонить
@@ -48,8 +44,8 @@ const Header = () => {
         </div>
         
         {/* Адрес внизу */}
-        <div className="text-center">
-          <p className="text-muted text-sm">ул. Офицерская 26</p>
+        <div className="text-center mt-auto">
+          <p className="text-gray-400 text-sm">ул. Офицерская 26</p>
         </div>
       </div>
     </header>

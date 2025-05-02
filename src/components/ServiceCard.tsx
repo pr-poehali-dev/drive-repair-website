@@ -25,7 +25,6 @@ const ServiceCard = ({ title, description, price, image }: ServiceCardProps) => 
         
         <div className="flex items-center mb-4">
           <span className="text-primary font-bold text-xl">{price}</span>
-          <span className="text-xs text-muted ml-2">*зависит от сложности выполнения работ</span>
         </div>
         
         <a href="tel:+79966215396">
